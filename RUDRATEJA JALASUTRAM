@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudrateja Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>Rudrateja</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Rudrateja</h1>
+            <p>Computer Science Engineering Student | Future Software Developer</p>
+            <button onclick="showMessage()">Welcome</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            My name is <strong>Rudrateja</strong>. I was born on
+            <strong>23 July 2007</strong>.
+            I am currently pursuing my B.Tech in
+            <strong>Computer Science Engineering (Core)</strong>
+            at Amrita Vishwa Vidyapeetham.
+        </p>
+
+        <p>
+            My parents are government teachers:
+            <strong>N. V. Bharathi</strong> and
+            <strong>J. Nagaraju</strong>.
+        </p>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>Amrita Vishwa Vidyapeetham</h3>
+            <p>B.Tech - Computer Science Engineering (Core)</p>
+            <p>Currently Studying - 2nd Year</p>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <h2>Achievements</h2>
+
+        <div class="card">
+            <ul>
+                <li>Completed multiple programming projects.</li>
+                <li>Skilled in Java, Python, HTML, CSS and JavaScript.</li>
+                <li>Developed technical and problem-solving skills.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email:Rudrateja109@gmail.com</p>
+        <p>LinkedIn: https://www.linkedin.com/in/rudrateja-jalasutram/</p>
+        <p>GitHub: rudra@25114 </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Rudrateja | Portfolio Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
